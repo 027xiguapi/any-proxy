@@ -10,7 +10,7 @@
  */
 
 // 目标网站地址
-const TARGET_HOST = 'api.242243.xyz';
+const TARGET_HOST = 'wzw.pp.ua';
 const TARGET_URL = `https://${TARGET_HOST}`;
 
 // 日志大小限制（KB）
