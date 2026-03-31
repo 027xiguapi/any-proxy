@@ -1,8 +1,8 @@
 /**
- * Cloudflare Worker - anyrouter.top 反向代理
+ * Cloudflare Worker - qinglin.love 反向代理
  *
  * 功能说明：
- * 1. 接收所有请求并转发到 anyrouter.top
+ * 1. 接收所有请求并转发到 qinglin.love
  * 2. 保持原始请求的所有 headers、方法和 body
  * 3. 自动重写 HTML/CSS/JS 中的绝对 URL，确保所有资源都通过代理访问
  * 4. 返回目标网站的响应
@@ -10,7 +10,7 @@
  */
 
 // 目标网站地址
-const TARGET_HOST = 'anyrouter.top';
+const TARGET_HOST = 'qinglin.love';
 const TARGET_URL = `https://${TARGET_HOST}`;
 
 // 日志大小限制（KB）
